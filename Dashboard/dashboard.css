@@ -1,0 +1,79 @@
+ /* Dashboard Layout */
+ body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+
+  /* Sidebar Styling */
+  .sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    background-color: #343a40;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    height: 100%;
+    transition: all 0.3s;
+  }
+
+  .sidebar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .sidebar a:hover {
+    background-color: #495057;
+    border-radius: 5px;
+    padding-left: 10px;
+  }
+
+  .main-content {
+    margin-left: 250px;
+    width: 100%;
+    padding: 20px;
+    transition: margin-left 0.3s;
+  }
+
+  /* Top Navbar */
+  .navbar {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+  }
+
+  .navbar h3 {
+    margin: 0;
+    color: white;
+  }
+
+  .content-section {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  /* Dashboard Cards */
+  .card {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+  }
+
+  .card:hover {
+    transform: scale(1.05);
+  }
+
+  .card-header {
+    background-color: #007bff;
+    color: white;
+  }
+
+  .card-body h5 {
+    font-size: 1.3rem;
+  }
